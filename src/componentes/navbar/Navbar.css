@@ -1,0 +1,15 @@
+.article-wrapper {
+    position: relative;
+}
+
+.article-wrapper:hover .glows::after,
+.article-wrapper:focus-visible .glows::after,
+.article-wrapper:hover .glows::before,
+.article-wrapper:focus-visible .glows::before {
+    opacity: 0.15;
+}
+
+.article-wrapper:hover article,
+.article-wrapper:focus-visible article {
+    z-index: 2;
+}
