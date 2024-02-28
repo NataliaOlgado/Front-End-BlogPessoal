@@ -88,7 +88,7 @@ function login(e: ChangeEvent<HTMLFormElement>) {
 
           <p className='text-transparent bg-clip-text bg-gradient-to-r text-transparent from-rosalaranja to-laranja'>
             Ainda não tem uma conta?{' '}</p>
-            <Link to="/cadastro" className=" hover:scale-110 duration-300 text-white w-1/2 py-2 flex justify-center font-serif text-rosapink hover:underline"> Cadastre-se
+            <Link to="/cadastro" className=" hover:scale-110 duration-300 w-1/2 py-2 flex justify-center font-serif text-rosapink hover:underline"> Cadastre-se
             </Link>  
         </form>
         <div className="fundoLogin hidden lg:block"></div>
