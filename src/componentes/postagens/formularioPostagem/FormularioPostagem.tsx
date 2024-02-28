@@ -176,7 +176,7 @@ function FormularioPostagem() {
             ))}
           </select>
         </div>
-        <button disabled={carregandoTema} type='submit' className='rounded disabled:bg-rosanuvem border-4 border-rosalaranja rounded text-rosapink bg-borgonha w-full font-serif font-bold w-1/2 mx-auto block py-2 hover:bg-red-400 max-w-xs transition duration-300 ease-in-out hover:scale-110 hover:text-white'>
+        <button disabled={carregandoTema} type='submit' className='rounded disabled:bg-rosanuvem border-4 border-rosalaranja rounded text-white bg-borgonha w-full font-serif font-bold w-1/2 mx-auto block py-2 hover:bg-red-400 max-w-xs transition duration-300 ease-in-out hover:scale-110 hover:text-white'>
           {carregandoTema ? <span>Carregando</span> : id !== undefined ? 'Editar' : 'Cadastrar'}
         </button>
       </form>
